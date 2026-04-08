@@ -20,3 +20,4 @@ wget https://downloadirpf.receita.fazenda.gov.br/irpf/2026/irpf/arquivos/IRPF202
 bsdtar -xvf IRPF2026-1.0.zip
 
 mkdir -p ./AppDir/bin
+mv -v lib lib-modulos irpf.jar IRPF.acb offline.png online.png online.png ./AppDir/bin
