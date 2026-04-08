@@ -17,3 +17,6 @@ get-debloated-pkgs --add-common --prefer-nano
 
 # If the application needs to be manually built that has to be done down here
 wget https://downloadirpf.receita.fazenda.gov.br/irpf/2026/irpf/arquivos/IRPF2026-1.0.zip
+bsdtar -xvf IRPF2026-1.0.zip
+
+mkdir -p ./AppDir/bin
