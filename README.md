@@ -27,7 +27,7 @@ Este AppImage não requer FUSE para funcionar, graças ao [uruntime](https://git
 
 Este AppImage também é fornecido com um atualizador automático por padrão, portanto, nenhuma atualização deste aplicativo será perdida. Você será solicitado a conceder permissão para verificar se há atualizações e, se concordar, será notificado quando uma nova atualização estiver disponível.
 
-O atualizador automático é desativado por padrão se existirem gerenciadores de AppImage como [am](https://github.com/ivan-hc/AM), [soar](https://github.com/pkgforge/soar) ou [dbin](https://github.com/xplshn/dbin) existirem, que gerenciam atualizações de AppImage.
+O atualizador automático é desativado por padrão se existirem gerenciadores de AppImage como [am](https://github.com/ivan-hc/AM), [soar](https://github.com/pkgforge/soar) ou [dbin](https://github.com/xplshn/dbin), que gerenciam atualizações de AppImage.
 
 <details>
   <summary><b><i>raison d'être</i></b></summary>
