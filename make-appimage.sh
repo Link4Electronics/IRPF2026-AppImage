@@ -13,10 +13,11 @@ export MAIN_BIR=irpf.jar
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin/* \
-/usr/lib/jvm/java*/bin \
-/usr/lib/jvm/java*/conf \
-/usr/lib/jvm/java*/legal \
-/usr/lib/jvm/java*/lib
+    /usr/lib/jvm/java*/bin \
+    /usr/lib/jvm/java*/conf \
+    /usr/lib/jvm/java*/legal \
+    /usr/lib/jvm/java*/lib \
+    /usr/bin/openssl
 
 # Additional changes can be done in between here
 
