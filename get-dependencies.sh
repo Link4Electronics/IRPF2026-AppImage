@@ -16,11 +16,11 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
-VERSION=1.1
+VERSION=1.2
 echo "$VERSION" > ~/version
 wget https://downloadirpf.receita.fazenda.gov.br/irpf/2026/irpf/arquivos/IRPF2026-${VERSION}.zip
-bsdtar -xvf IRPF2026-${VERSION}.zip --strip-components=1
-rm -f *.zip
+bsdtar -xvf ./*.zip --strip-components=1
+rm -f ./*.zip
 
 mkdir -p ./AppDir/bin
 sed -i 's|\./jre/bin/java -jar irpf.jar|exec java -jar "$APPDIR/bin/irpf.jar" "$@"|' exec.sh
